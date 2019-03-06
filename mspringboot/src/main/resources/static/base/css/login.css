@@ -1,0 +1,30 @@
+	body {
+			background: url("../../images/login_bg.jpg") no-repeat center center fixed;
+			background-size: 100% 100%;
+		}
+		
+		.main {
+			width: 477px;
+			height: 450px;
+			margin: 10% auto;
+			background-color: rgba(9, 10, 42, 0.407843);
+			border-radius: 10px;
+			color: aliceblue;
+		}
+		
+		.main h3 {
+			text-align: center;
+			font-size: 25px;
+			padding: 10px;
+			border-bottom: 1px solid aliceblue;
+		}
+		
+		.center {
+			width: 500px;
+			margin-left: 19%;
+			margin-top: 30px;
+		}
+		
+		.center input {
+			width: 300px;
+		}

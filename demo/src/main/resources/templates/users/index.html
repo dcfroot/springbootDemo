@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <title>Insert title here</title>
+</head>
+<body>
+<h2>用户列表</h2>
+<div>
+    <ul>
+        <li  th:each="user:${users}">
+            <span th:text="${user.id}"></span>-
+            <span th:text="${user.name}"></span>-
+            <span th:text="${user.age}"></span>-
+        </li>
+    </ul>
+</div>
+</body>
+</html>

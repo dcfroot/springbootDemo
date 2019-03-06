@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录-统一身份认证系统</title>
+    <link rel="stylesheet" href="base/plugins/layui-v2.4.3/layui/css/layui.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="base/css/login.css">
+    <link rel="stylesheet" href="base/plugins/buttonCaptcha/jquery.buttonCaptcha.styles.css" />
+    <link rel="stylesheet" href="base/plugins/jquery-ui/jquery-ui.min.css" />
+
+</head>
+<body>
+<form class="layui-form main" action="#" method="post">
+    <div>
+        <h3>后台登录</h3></div>
+    <div class="center">
+        <input id="account" type="text" class="layui-input" lay-verify="required" name="account" placeholder="请输入您的账号" />
+    </div>
+    <div class="center">
+        <input id="passWord" type="password" class="layui-input" lay-verify="required" name="password" placeholder="请输入您的密码" />
+    </div>
+    <div>
+        <div class="center">
+            <label class="layui-form-label">记住密码？</label>
+            <div class="layui-input-block">
+                <input type="checkbox" id="remember" name="close" lay-skin="switch" lay-text="ON|OFF">
+            </div>
+            <div>
+                <button lay-submit lay-filter="login"
+                         class="layui-btn  layui-col-md-offset3 layui-btn-primary login" />登录</button>
+            </div>
+        </div>
+    </div>
+</form>
+<script src="base/js/jquery-3.3.1.min.js"></script>
+<script src="base/plugins/layui-v2.4.3/layui/layui.js"></script>
+<script type="text/javascript" src="base/plugins/buttonCaptcha/jquery.buttonCaptcha.js"></script>
+<script src="base/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="base/js/login.js"></script>
+
+</body>
+</html>
